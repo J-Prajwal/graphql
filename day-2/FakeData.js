@@ -1,0 +1,210 @@
+const UserList = [
+  {
+    id: 1,
+    name: "Nils Enever",
+    username: "nenever0",
+    age: 45,
+    nationality: "India",
+    friends: [
+      {
+        id: 3,
+        name: "Elfie Paoletti",
+        username: "epaoletti2",
+        age: 44,
+        nationality: "Venezuela",
+      },
+      {
+        id: 6,
+        name: "Carlynne Faldoe",
+        username: "cfaldoe5",
+        age: 47,
+        nationality: "China",
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "Elene Gregoriou",
+    username: "egregoriou1",
+    age: 47,
+    nationality: "Argentina",
+  },
+  {
+    id: 3,
+    name: "Elfie Paoletti",
+    username: "epaoletti2",
+    age: 44,
+    nationality: "Venezuela",
+  },
+  {
+    id: 4,
+    name: "Adrienne Arboin",
+    username: "aarboin3",
+    age: 49,
+    nationality: "India",
+  },
+  {
+    id: 5,
+    name: "Chloris Kerin",
+    username: "ckerin4",
+    age: 41,
+    nationality: "Portugal",
+    friends: [
+      {
+        id: 3,
+        name: "Elfie Paoletti",
+        username: "epaoletti2",
+        age: 44,
+        nationality: "Venezuela",
+      },
+      {
+        id: 6,
+        name: "Carlynne Faldoe",
+        username: "cfaldoe5",
+        age: 47,
+        nationality: "China",
+      },
+    ],
+  },
+  {
+    id: 6,
+    name: "Carlynne Faldoe",
+    username: "cfaldoe5",
+    age: 47,
+    nationality: "China",
+    friends: [
+      {
+        id: 7,
+        name: "Beale Arrigucci",
+        username: "barrigucci6",
+        age: 50,
+        nationality: "China",
+        friends: [
+          {
+            id: 8,
+            name: "Rowe Allmann",
+            username: "rallmann7",
+            age: 31,
+            nationality: "China",
+          },
+          {
+            id: 6,
+            name: "Carlynne Faldoe",
+            username: "cfaldoe5",
+            age: 47,
+            nationality: "China",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 7,
+    name: "Beale Arrigucci",
+    username: "barrigucci6",
+    age: 50,
+    nationality: "China",
+    friends: [
+      {
+        id: 8,
+        name: "Rowe Allmann",
+        username: "rallmann7",
+        age: 31,
+        nationality: "China",
+      },
+      {
+        id: 6,
+        name: "Carlynne Faldoe",
+        username: "cfaldoe5",
+        age: 47,
+        nationality: "China",
+      },
+    ],
+  },
+  {
+    id: 8,
+    name: "Rowe Allmann",
+    username: "rallmann7",
+    age: 31,
+    nationality: "China",
+  },
+  {
+    id: 9,
+    name: "Ilario Hammon",
+    username: "ihammon8",
+    age: 35,
+    nationality: "Indonesia",
+  },
+  {
+    id: 10,
+    name: "Madeleine Melchior",
+    username: "mmelchior9",
+    age: 35,
+    nationality: "Indonesia",
+  },
+];
+
+const MovieList = [
+  {
+    id: 1,
+    name: "Dark Night of the Scarecrow",
+    yearOfPublication: 1991,
+    isInTheaters: true,
+  },
+  {
+    id: 2,
+    name: "Beyond the Law (Beyond the Law - Blue)",
+    yearOfPublication: 2003,
+    isInTheaters: false,
+  },
+  {
+    id: 3,
+    name: "Silent Rage",
+    yearOfPublication: 1999,
+    isInTheaters: true,
+  },
+  {
+    id: 4,
+    name: "Upstream Color",
+    yearOfPublication: 1976,
+    isInTheaters: false,
+  },
+  {
+    id: 5,
+    name: "Good Morning, Vietnam",
+    yearOfPublication: 1994,
+    isInTheaters: true,
+  },
+  {
+    id: 6,
+    name: "War Made Easy: How Presidents & Pundits Keep Spinning Us to Death",
+    yearOfPublication: 1972,
+    isInTheaters: true,
+  },
+  {
+    id: 7,
+    name: "Street of Shame (Akasen chitai)",
+    yearOfPublication: 2009,
+    isInTheaters: false,
+  },
+  {
+    id: 8,
+    name: "Front Page, The",
+    yearOfPublication: 2009,
+    isInTheaters: false,
+  },
+  {
+    id: 9,
+    name: "Frequencies",
+    yearOfPublication: 2008,
+    isInTheaters: true,
+  },
+  {
+    id: 10,
+    name: "Alois Nebel",
+    yearOfPublication: 1992,
+    isInTheaters: false,
+  },
+];
+
+module.exports = { UserList, MovieList };
